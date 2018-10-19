@@ -1,5 +1,7 @@
 # working with samples
 
+
+
 ```python3
 SynthDef(\play, { | amp = 0.0, buf, len, start = 0, trig = 1 |
   var env, sig;
