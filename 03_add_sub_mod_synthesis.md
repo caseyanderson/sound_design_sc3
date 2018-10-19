@@ -71,7 +71,7 @@ x.set(\trig, 0); // stop playing the synth when you have had enough
 
 Which looks like this in the `FreqScope`:
 
-<br/><img src="/assets/addsynth_freqscope.png" height="390" width="605">
+<br/><img src="/imgs/addsynth_freqscope.png" height="390" width="605">
 
 
 ### Subtractive Synthesis
