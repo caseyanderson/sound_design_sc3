@@ -10,7 +10,7 @@ and then proceed through the rest of this lab.
 
 ### Additive Synthesis
 
-`Additive Synthesis` is the technique of combining multiple sounds to create more complexity. We went over a simple example as part of [this](http://creativetech.caseyanderson.com/2018/01/16/SynthDefs-Envelopes/) lab on Tuesday:
+`Additive Synthesis` is the technique of combining multiple sounds to create more complexity. For example:
 
 ```python3
 { SinOsc.ar( 440, 0.0, 0.5 ) + PinkNoise.ar( 0.1 ) + Crackle.ar( 1.5, 0.4 ) + LFTri.ar( 200, 0.0, 0.2 )}.play;

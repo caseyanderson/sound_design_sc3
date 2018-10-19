@@ -81,17 +81,3 @@ Another example that uses Mouse location (both x and y axes) for frequency and a
 ```python3
 { SinOsc.ar(MouseY.kr( 50, 2000), 0.0, MouseX.kr( 0.0,1.0 )); }.scope;
 ```
-
-<br/>
-
-## Additive Synthesis
-
-Additive Synthesis is a general term that refers to the technique of playing more than one sound simultaneously to create a more complex sound. This is also typically referred to as "summing" signals.
-
-*For Example*
-
-```python3
-{ SinOsc.ar( 440, 0.0, 0.5 ) + PinkNoise.ar( 0.1 ) + Crackle.ar( 1.5, 0.4 ) + LFTri.ar( 200, 0.0, 0.2 )}.play;
-```
-
-Be careful with Crackle, it explodes easily (and this especially sucks if you are monitoring SC via headphones).
