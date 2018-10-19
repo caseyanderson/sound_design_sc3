@@ -73,7 +73,7 @@ f.value(5, 3);
 )
 ```
 
-In the above code, evaluating the `f.value(5, 3)` results in the number `2` at the post. Try running f.value with two different numbers.
+In the above code, evaluating the `f.value(5, 3)` results in the number `2` at the post. Try running `f.value` with two different numbers.
 
 One can also use variables in functions.
 
